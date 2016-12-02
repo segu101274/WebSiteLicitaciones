@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Mantenimiento</title>
+    <link id="Link1" href="css/bootstrap.min.css" rel="stylesheet" runat="server" />
+    <link id="Link2" href="css/StyleIndexMenu.css" rel="stylesheet" runat="server" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div>
+        <nav>
+            <ul class="list-inline text-right modal-title">
+                <li class="glyphicon-home"><a href="Menu.aspx">Home</a></li>
+                <li class="glyphicon-send"><a href="Login.aspx">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="img-cabecera">
+                <img id="Img1" src="~/img/Menu-Principal/Cabecera-titulo.png" alt="Sistema de adquisición de datos" style="width: 100%;" runat="server" />
+                <div class="img-Text modal-title">
+                    <h1><strong>Sistema de mantenimiento</strong></h1>
+                </div>
+            </div>
+        </header>
+        <div class="col-md-12 center-block" style="background-color: #F3F3F3; border: 0px; position: relative">
+            <div class="col-sm-8 text-center center-block quitar-float" style="background-color: white;">
+                <form id="form1" runat="server">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-12 center-block" style="background-color: #F3F3F3; position: relative">
+            <div class="col-sm-8 center-block quitar-float" style="background-color: white;">
+            </div>
+        </div>
+        <footer class="panel-footer center-block context-footer text-left">
+            <address>
+                <strong>HappyBox</strong><br />
+                Av. Nicolás Ayllón 2890<br />
+                Ate Vitarte Lima 3 - Perú<br />
+                <a class="text-muted" style="color: white; font-style: oblique" href="mailto:#">svigoc@gmail.com</a>
+            </address>
+        </footer>
+
+    </div>
+
+</body>
+</html>

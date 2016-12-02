@@ -1,0 +1,530 @@
+body{
+	margin: 0px 0px 0px 0px;
+	font-family:Arial;
+	background-image:url(../img/001.png);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color:#dcdcdc;
+	color:#4c4c4c;
+}
+
+
+/* BLOQUES */
+
+.CajaText {
+    height: 12px; 
+    background-color: blanchedalmond;
+}
+.dpdLista {
+    background-color: blanchedalmond;
+}
+
+.superior{
+	width:100%;
+	background-image:url(../img/003.png);
+	background-position:center;
+	background-repeat:repeat-y;
+	margin-top:15px;
+}
+
+.principal{
+	width:100%;
+	background-image:url(../img/002.png);
+	background-position:center;
+	background-repeat:repeat-y;
+}
+
+.interno{
+    width:960px;
+}
+
+.cabecera{
+	float:left;
+	width:739px;
+	height:26px;
+	background-image:url(../img/004.jpg);
+	color:#FFFFFF;
+	font-weight:bold;
+	font-style:italic;
+	font-size:24px;
+	text-align:right; 
+    padding:90px 30px 0px 0px;
+	letter-spacing:-1px;
+}
+
+.centro{
+	padding:20px 0px 20px 0px;
+	background-color:#FFFFFF;
+	width:960px;
+}
+
+.celeste{
+	background:#edf8fc;
+	background-color:#edf8fc;
+	margin-top:10px;
+	padding:20px;
+}
+
+.blanco{
+	background:#ffffff;
+	background-color:#ffffff;
+	padding:20px 0px 20px 0px;
+}
+
+/* LOGIN */
+
+.login{
+	background-image:url(../img/008.gif);
+	background-repeat:repeat-y;
+	margin-top:10px;
+	width:310px;
+	font-size:12px;
+}
+
+.contlogin{
+	padding:0px 20px 0px 20px;
+	text-align:left;
+}
+
+.campo{
+	float:left;
+	text-align:right;
+	font-size:11px;
+	font-weight:bold;
+	width:110px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+.caja1{
+	background-image:url(../img/011.png);
+	background-repeat:repeat-x;
+	height:21px;
+	border:1px solid;
+	border-color:#ffb700;
+	margin-bottom:5px;
+	width:135px;
+}
+
+.recordar{
+	float:left;
+	padding-left:5px;
+	padding-top:2px;
+}
+
+/* BARRAS */
+
+.barra{
+	width:960px;
+	border-top:1px solid;
+	border-top-color:#FFFFFF;
+}
+
+.amarillo{
+	float:left;
+	width:698px;
+	background-color:#ffb700;
+	height:25px;
+	text-align:right;
+	padding-right:30px;
+	padding-top:5px;
+}
+
+.txtamarillo{
+	float:right;
+	font-size:11px;
+	padding-top:4px;
+	padding-right:10px;
+}
+
+.pie{
+	height:22px;
+	background-color:#000000;
+	width:960px;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;
+	padding-top:8px;
+}
+
+/* columnaizqS */
+
+.col1{
+	width:250px;
+	float:left;
+	text-align:left;
+	font-size:12px;
+}
+
+.col2{
+	width:20px;
+	float:left;
+}
+
+.col3{
+	width:660px;
+	float:left;
+	text-align:left;
+	padding-right:30px;
+}
+
+.columnaizq{
+    float:left;
+    height: 19px;
+}
+
+.columnader{
+    float:right;
+}
+
+.agrupar{
+    clear:both;
+}
+
+
+/* CONTENIDOS */
+
+.usuario {
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.btcerrar{
+	float:right;
+	padding-left:7px;
+}
+
+.txtbienvenida{
+	font-size:12px;
+	padding: 20px 20px 0px 20px;
+}
+
+.subtitulo1{
+	color:#ff0000;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.subtitulo2{
+	color:#ffb700;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.titulo{
+	color:#FFFFFF;
+	font-size:15px;
+	letter-spacing:-1px;
+	font-weight:bold;
+	font-style:italic;
+	background-image:url(../img/015.png);
+	background-repeat:repeat-x;
+	height:24px;
+	padding-left:10px;
+	padding-top:6px;
+}
+
+
+.mensaje{
+	color:#FFFFFF;
+	font-size:15px;
+	letter-spacing:-1px;
+	font-weight:bold;
+	height:24px;
+	text-align:center;
+}
+
+
+.volver{
+	color:#FFFFFF;
+	font-size:15px;
+	letter-spacing:-1px;
+	font-weight:bold;
+	height:24px;
+	text-align:center;
+}
+
+
+
+
+.contenido{
+	background-image:url(../img/016.gif);
+	background-repeat:repeat-y;
+	padding:20px;
+	border-bottom:1px solid;
+	border-bottom-color:#c7c7c7;
+	font-size:12px;
+}
+
+.caja2{
+	background-image:url(../img/011.png);
+	background-repeat:repeat-x;
+	height:21px;
+	border:1px solid;
+	border-color:#ffb700;
+}
+
+.titulo2{
+	float:left;
+	width:577px;
+	height:21px;
+	margin-left:10px;
+	padding: 8px 0px 0px 0px;
+	color:#ffb700;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:1px solid;
+	border-bottom-color:#c7c7c7;
+}
+
+.semaforo{
+	float:left;
+	width:79px;
+	padding:0px 15px 0px 15px;
+	text-transform:uppercase;
+}
+
+/* MENU */
+
+.titmenu{
+	background-image:url(../img/012.png);
+	background-repeat:repeat-x;
+	height:23px;
+	border-bottom:1px solid;
+	border-bottom-color:#969696;
+	padding-left:30px;
+	padding-top:6px;
+}
+
+.tarea{
+	padding-left:30px;
+	height:22px;
+	background-image:url(../img/014.png);
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	border-top:1px solid;
+	border-top-color:#FFFFFF;
+	font-weight:bold;
+	padding-top:8px;
+}
+
+.subnivel1{
+	height:30px;
+	background-image:url(../img/bk_subnivel.png);
+	color:#4c4c4c;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-top-color:#FFFFFF;
+	border-bottom-color:#53953b;
+	font-weight:bold;
+	padding-right:10px;
+}
+
+a.s1{
+	text-decoration:none;
+	color:#4c4c4c;
+}
+
+a.s1:hover{
+	text-decoration:none;
+	color:#FF0000;
+}
+
+.subnivel2{
+	padding-left:60px;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-top-color:#FFFFFF;
+	border-bottom-color:#53953b;
+	padding-top:7px;
+	padding-bottom:7px;
+	padding-right:10px;
+}
+
+a.s2{
+	text-decoration:none;
+	color:#969696;
+}
+
+a.s2:hover{
+	text-decoration:none;
+	color:#FF0000;
+}
+
+
+.rojo{
+	color:#FF0000;
+}
+
+/* FORMULARIOS */
+
+.izq_form{
+	float:left;
+	padding-right:15px;
+    height: 253px;
+    width: 328px;
+}
+
+.der_form
+{
+	float: left;
+padding-right:15px;
+}
+
+.calendario{
+	float:left;
+	margin-right:10px;
+
+}
+
+.campo2{
+	float:left;
+	padding-right:10px;
+	padding-top:5px;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.campo3{
+	float:left;
+	padding-right:10px;
+	padding-top:10px;
+	font-size:12px;
+	font-weight:bold;
+	height: 15px;
+}
+.detalle{
+	float:left;
+	padding-right:10px;
+	padding-top:10px;
+	font-size:12px;
+    width: 90px;
+}
+.detalle2{
+	float:left;
+	padding-right:10px;
+	padding-top:10px;
+	font-size:12px;
+    width: 290px;
+}
+.buscar{
+	float:left;
+	padding-left:10px;
+	padding-top:3px;
+}
+
+.caja_tam0{
+	background-image:url(../img/011.png);
+	background-repeat:repeat-x;
+	height:21px;
+	border:1px solid;
+	border-color:#ffb700;
+	margin-bottom:20px;
+	margin-right:10px;
+	width:40px;
+}
+
+.caja_tam1{
+	background:url(../img/011.png);
+	background-image:url(../img/011.png);
+	background-repeat:repeat-x;
+	height:21px;
+	border:1px solid;
+	border-color:#ffb700;
+	margin-bottom:20px;
+	margin-right:10px;
+	width:85px;
+}
+
+.caja_tam2{
+	background:url(../img/011.png);
+	background-image:url(../img/011.png);
+	background-repeat:repeat-x;
+	height:21px;
+	border:1px solid;
+	border-color:#ffb700;
+	margin-bottom:20px;
+	margin-right:10px;
+	width:200px;
+}
+
+.caja_lista{
+	background:url(../img/011.png);
+	background-image:url(../img/011.png);
+	background-repeat:repeat-x;
+	height:21px;
+	border:1px solid;
+	border-color:#ffb700;
+	margin-bottom:20px;
+}
+
+.caja_lista2{
+	background:url(../img/011.png);
+	background-image:url(../img/011.png);
+	background-repeat:repeat-x;
+	height:21px;
+	border:1px solid;
+	border-color:#ffb700;
+	margin-bottom:20px;
+	width:200px;
+}
+
+
+
+/* TABLA */
+
+td.celda1{
+	background:#ffb700;
+	background-color:#ffb700;
+	font-size:11px;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+	padding:3px;
+	height:25px;
+	border-right:1px solid;
+	border-right-color:#c7c7c7;
+}
+
+td.celda2{
+	background:#ffffff;
+	background-color:#ffffff;
+	font-size:10px;
+	color:#4c4c4c;
+	text-align:center;
+	padding:3px;
+	height:25px;
+	border-right:1px solid;
+	border-right-color:#c7c7c7;
+	border-top:1px solid;
+	border-top-color:#c7c7c7;
+}
+
+td.celda3{
+	background:#edf8fc;
+	background-color:#edf8fc;
+	font-size:10px;
+	color:#4c4c4c;
+	text-align:center;
+	padding:3px;
+	height:25px;
+	border-right:1px solid;
+	border-right-color:#c7c7c7;
+	border-top:1px solid;
+	border-top-color:#c7c7c7;
+}
+
+table.tabla{
+	border-bottom:1px solid;
+	border-top:1px solid;
+	border-right:none;
+	border-left:1px solid;
+	border-bottom-color:#c7c7c7;
+	border-top-color:#c7c7c7;
+	border-left-color:#c7c7c7;
+}
+
+.resultados{
+	text-align:right;
+	font-weight:bold;
+}

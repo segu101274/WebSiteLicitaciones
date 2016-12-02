@@ -1,0 +1,192 @@
+﻿
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    overflow-x: auto;
+    overflow-y: scroll;
+    background-color: #F3F3F3;
+}
+
+#Container_Cabecera {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    border-top: 0px solid rgba(255, 255, 255, 1);
+    border-bottom: 0px solid rgba(255, 255, 255, 1);
+    align-content: center;
+}
+
+#Container_Cabecera_01 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Container_Contenido {
+    background-color: #F3F3F3;
+}
+
+#Container_Contenido_ {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#Container_Contenido_01 {
+    position: relative;
+}
+
+#Container_Contenido_01_1 {
+    margin-left: auto;
+}
+
+#Container_Contenido_01_2 {
+    position: relative;
+    height: auto;
+}
+
+#Container_Contenido_01_2_1 {
+    width: 60%;
+    right: 0;
+    position: relative;
+    width: 56%;
+    height: 120%;
+    border-right: 2px solid;
+    border-color: #D6D6D6;
+    padding-left: 20px;
+    margin-left: 20px;
+    top: 0px;
+}
+
+#Container_Contenido_01_2_2 {
+    width: 35%;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+    line-height: 2em;
+    height: 100%;
+}
+
+#Container_Titulo {
+    top: 70%;
+    position: absolute;
+    width: auto;
+    right: 0.4%;
+    text-align: right;
+    background-color: floralwhite;
+    font-size: 2em;
+}
+
+#Container_Footer {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(56, 56, 56, 1);
+    border-top: 0px solid rgba(56, 56, 56, 1);
+    border-bottom: 0px solid rgba(56, 56, 56, 1);
+}
+
+#Container_Footer_ {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Controles propios*/
+.login {
+}
+
+.Login_text_Usuario {
+    height: 1em;
+    font: normal normal normal 1.2em dotum,helvetica,sans-serif;
+    color: #717070;
+    /*background-color:white;*/
+    border-color: #D6D6D6;
+    border: 0px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: groove;
+}
+
+
+.Login_text_Password {
+    font: normal normal normal 0.5em dotum,helvetica,sans-serif;
+    color: #717070;
+    background-color: white;
+    border-color: #D6D6D6;
+    border: 0px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: groove;
+}
+
+.login_Label {
+    font: normal normal normal 1.1em dotum,helvetica,sans-serif;
+    color: #383838;
+    text-align: justify;
+    position: static;
+    padding-left: 3%;
+}
+
+hr {
+    border-left: 1px solid #999999;
+    height: 200px;
+}
+
+vr {
+    border-left: 1px solid #999999;
+    height: 100%;
+}
+
+.font_5 {
+    font: normal normal bold 1.8em dotum,helvetica,sans-serif;
+    color: rgba(56,56,56,1);
+    position: static;
+    background-color: #F3F3F3;
+    padding-left: 3%;
+    width: 93%;
+}
+
+.font_8 {
+    font: normal normal normal 1.1em dotum,helvetica,sans-serif;
+    color: #717070;
+    text-align: justify;
+    position: static;
+    padding-left: 3em;
+    padding-top: 2em;
+    line-height: 1.5em;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+
+
+.font_9 {
+    font: normal normal normal 1.1em dotum,helvetica,sans-serif;
+    color: #717070;
+    text-align: justify;
+}
+
+.color_11 {
+    color: rgba(243,243,243,1);
+    font: normal normal normal 1.3em dotum,helvetica,sans-serif;
+}
+
+.color_12 {
+    color: rgba(243,243,243,1);
+    font: normal normal normal 0.7em dotum,helvetica,sans-serif;
+}

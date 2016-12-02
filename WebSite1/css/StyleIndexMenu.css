@@ -1,0 +1,115 @@
+﻿body {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #F3F3F3;
+    border-top: 0px solid rgba(56, 56, 56, 1);
+    border-bottom: 0px solid rgba(56, 56, 56, 1);
+}
+
+.img-cabecera {
+    background-color: white;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.img-Text {
+    top: 50%;
+    position: absolute;
+    width: auto;
+    right: 0.4%;
+    text-align: right;
+    background-color: floralwhite;
+    font-size: 2em;
+}
+
+.quitar-float {
+    float: none;
+}
+
+.Espacio-arriba {
+    margin-top: 0px;
+}
+
+/*.pacifico {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}*/
+
+.menu-planas {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.inline-block {
+    float: none;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.fondo-menu {
+    background-color: blue;
+}
+
+.menu-img {
+    width: 100%;
+}
+
+.menu-contenedor {
+    width: 50%;
+}
+
+.context-footer {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(56, 56, 56, 1);
+    border-top: 0px solid rgba(56, 56, 56, 1);
+    border-bottom: 0px solid rgba(56, 56, 56, 1);
+    color: white;
+}
+
+.border-tabla-left {
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 1px;
+    border: solid;
+}
+
+.border-tabla-right {
+    border-left: 1px;
+    border: solid;
+}
+
+.titulo {
+    top: 40%;
+    position: absolute;
+    width: auto;
+    right: 0.4%;
+    text-align: right;
+    background-color: floralwhite;
+}
+
+.Text-Informacion {
+    font: normal normal normal 1.1em dotum,helvetica,sans-serif;
+    color: #717070;
+    text-align: justify;
+    position: static;
+    padding-left: 3em;
+    padding-top: 2em;
+    line-height: 1.5em;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+.texto-vertical-3 {
+  width:20px;
+  word-wrap: break-word;
+  text-align:center;
+  line-height:30%;
+}

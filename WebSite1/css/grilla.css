@@ -1,0 +1,365 @@
+﻿ 
+
+ 
+.menu_nodeStyle
+{
+	padding: 5px 0px 5px 0px;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+.menu_hoverNodestyle
+{
+	
+	
+	cursor:pointer;
+	
+}
+
+.menu_selectedNodestyle
+{
+	padding: 5px 0px 5px 0px;
+	
+
+}
+
+/* added by Henry - Styles*/
+
+.textoblanco {
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #FFFFFF;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+
+	
+.textoblanco:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #FFFFFF;*/
+	color: #000;
+	font-size: 11px;
+	/*text-decoration:underline;*/
+}
+
+.textoblancosession
+{
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #FFFFFF;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+.textoblancosession:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #FFFFFF;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+.textoblanconegrita {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.textoplomo {
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #666666;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration:none;
+}
+.textoplomo:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #666666;*/
+	color: #000;
+	font-size: 11px;
+	/*text-decoration:underline;*/
+	text-decoration: none;
+}
+.textoplomonegrita {
+	font-size: 13px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	/*color: #666666; */
+	color: #000;
+	font-weight: bold; 
+	text-decoration: none; 
+}
+.textoazul {
+	font-family: Arial, Helvetica, sans-serif; 
+	/*color: #00457C; */
+	/*color: #edc150;*/
+	color: #000;
+	font-size: 11px; 
+	text-decoration: none; 
+}
+.textoazul:hover {
+	font-family: Arial, Helvetica, sans-serif; 
+	/*color: #00457C; */
+	color: #000;
+	font-size: 11px; 
+	/*text-decoration: underline; */
+	text-decoration: none;
+}
+.textoazulnegrita {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #00457C;*/
+	/*color: #e9b225;*/
+	color: #000;
+	font-weight: bold;
+	text-decoration:none;
+}
+.textoazulnegrita:hover {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #00457C;*/
+	color: #000;
+	font-weight: bold;
+	/*text-decoration:underline;*/
+	text-decoration: none;
+}
+.botoninactivo{
+    font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 11px;
+	text-decoration:none;
+	border:inherit;
+	background-color:#E0E0E0;
+}
+.cabeceragrilla
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration:none;
+	/*background-color:#8BBFDE;*/
+	background-color:#edc150;
+}
+.cabeceracampos
+{
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #666666;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration:none;
+	background-color:#E9E9E9;
+}
+.celdagrillaimpar
+{
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #666666;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration:none;
+	background-color:#FFFFFF;
+}
+.celdagrillapar
+{
+	font-family: Arial, Helvetica, sans-serif; /*color: #666666;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration: none;
+	background-color:#fbeaac;
+}
+.funcionalidades
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 11px;
+	text-decoration:none;
+	background-color:#E8F1F7;
+}
+.menuizquierda
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration:none;
+	/*background-color:#5084b6;*/
+	/*background-color:#ead175;*/
+	/*background-color: #f8efce;*/
+	background-color: #fbeaac;
+}
+
+td.menuinsidelinea
+{
+	text-decoration:none;
+	background-color:#00457C;
+}
+
+/* Se agrega estilo para el popup */
+.modalbackground
+{
+	background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}   
+
+#ctl00_menMenu
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration:none;
+	/*background-color:#5084b6;*/
+	/*background-color:#ead175;*/
+	/*background-color: #f8efce;*/
+	background-color: #fbeaac;
+	text-align:right;
+	/*padding-right:20px;*/
+}
+
+#ctl00_menMenu a
+{
+	padding-right:10px;
+}
+/*color del flash inicial #00457c**/
+
+#Login
+{
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #FFFFFF;*/
+	color: #000;
+	font-size: 11px;
+	text-decoration:none;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.letranormal {color:#000000;font-size: 8pt;font-style:normal;font-weight:normal}
+
+.gridcontainer  
+{
+    border: solid 1px #D0D0D0;
+    border-top-width:0px;
+    width: 75%;
+}
+.grid {width: 100%;border-width:0px;}
+
+.grid caption {
+	background:#f9f9f9 url(../images/grey/captionbckg.gif) repeat-x;
+    /*color:#333333;*/
+    color: #000;
+	text-align:left;
+	line-height:22px;
+	font-size:11px;
+	font-weight:bold;
+	padding-top:4px;
+	padding-left:4px;
+	font-family:tahoma,arial,verdana,sans-serif;
+}
+
+.grid table 
+{
+	border-color:#D0D0D0;
+	border-width:1px;
+}
+	
+.grid td, .grid th
+{
+    height:18px;
+    vertical-align:middle;
+}
+
+.grid th
+{
+	background:transparent url(../images/grey/thbackground.gif) repeat-x;
+    height:19px;
+    border:solid 1px #D0D0D0;
+    font-weight:normal;
+}
+
+.grid td
+{
+	border:1px solid #ededed;
+    border-top-color:#fff;
+    width:100%;
+    cursor:default;
+}
+
+.selectedrow 
+{
+	background: #DFE8F6;	
+	border:1px dotted #A3BAE9;
+}
+
+.altrow 
+{
+	background-color:#f2f2f2;
+}
+
+.altoverow
+{
+	border:10px solid #99BBE8;
+    background: #efefef url(../images/grey/rowover.gif) repeat-x left top;
+}
+
+.pagerstyle 
+{
+	font-size:x-small;
+	text-align:right;
+    background-position: bottom left;
+    background: #D0DEF0 url(../images/grey/toolbarbck.gif) repeat-x scroll left top;
+}
+
+.gopag {
+    font-size:x-small;
+    width:20px;
+}
+
+.pagprev{
+    background:transparent url(../images/grey/previous.png) no-repeat scroll center;
+    height:1.3em;
+    width:16px;
+    cursor:pointer;
+    border:0px;
+}
+.pagnext{
+    background:transparent url(../images/grey/next.png) no-repeat scroll center;
+    height:1.3em;
+    width:16px;
+    cursor:pointer;
+    border:0px;
+}
+
+.pagfirst{
+    background:transparent url(../images/grey/first.png) no-repeat scroll center;
+    height:1.3em;
+    width:16px;
+    cursor:pointer;
+    border:0px;
+}
+.paglast{
+    background:transparent url(../images/grey/last.png) no-repeat scroll center;
+    height:1.3em;
+    width:16px;
+    cursor:pointer;
+    border:0px;
+}
